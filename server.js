@@ -15,6 +15,6 @@ app.get('/images', ({ query }, res) => {
   }, randomInterval(500, 1500));
 });
 
-app.listen(5000, () => {
+app.listen(5050, () => {
   process.stdout.write('Server is available on http://localhost:5000/\n');
 });

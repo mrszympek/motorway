@@ -1,0 +1,28 @@
+.form-container {
+  background: #ffffff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+
+  input {
+    height: 1rem;
+    padding: .2rem .5rem;
+    border-radius: 3px;
+    max-width: 500px;
+    margin-left: .5rem;
+  }
+
+  input[type=color] {
+    height: 2rem;
+    padding: .2rem;
+  }
+}
+
+.form-error {
+  color: red;
+}
